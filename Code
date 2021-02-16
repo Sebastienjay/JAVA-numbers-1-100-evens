@@ -1,0 +1,17 @@
+package hw;
+
+
+public class Hw {
+
+    public static void main(String[] args) {
+
+        int n = 100;                                 // n is given the value 100
+        System.out.print("Even numbers:  ");       // print statement
+        for (int i = 0; i <= n; i++) {            // For loop (will increase by 1) 
+            if (i % 2 == 0) {                     // if a number in the loop contains a remainder other than 0 it will not be printed
+                System.out.print(i + " ");      // Print statement
+
+            }
+        }
+    }
+} 
